@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TeleportAR' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks! :linkage => :static
+
+  # Pods for TeleportAR
+  pod 'Alamofire', '~> 5.2'
+  pod 'Starscream', '~> 4.0.0'
+  pod 'MaterialComponents/TextControls+OutlinedTextAreas'
+  pod 'MaterialComponents/TextControls+OutlinedTextFields'
+  pod 'MaterialComponents/Snackbar'
+  pod 'MaterialComponents/Buttons'
+  pod 'MaterialComponents/Buttons+Theming'
+  pod 'MaterialComponents/AppBar'
+  pod 'MaterialComponents/AppBar+Theming'
+  pod 'MaterialComponents/TextFields'
+  pod 'MaterialComponents/TextFields+ColorThemer'
+  pod 'MaterialComponents/schemes/Color'
+end

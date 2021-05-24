@@ -3,66 +3,102 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		469DFCF8265B9F8E0040E01B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469DFCF7265B9F8E0040E01B /* AppDelegate.swift */; };
-		469DFCFA265B9F8E0040E01B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469DFCF9265B9F8E0040E01B /* SceneDelegate.swift */; };
-		469DFCFC265B9F8E0040E01B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469DFCFB265B9F8E0040E01B /* ViewController.swift */; };
-		469DFCFF265B9F8E0040E01B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469DFCFD265B9F8E0040E01B /* Main.storyboard */; };
-		469DFD01265B9F910040E01B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469DFD00265B9F910040E01B /* Assets.xcassets */; };
-		469DFD04265B9F910040E01B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469DFD02265B9F910040E01B /* LaunchScreen.storyboard */; };
+		4600AF24265A827600432D11 /* ArNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600AF23265A827600432D11 /* ArNavigationController.swift */; };
+		4600AF26265A8D9C00432D11 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600AF25265A8D9C00432D11 /* TextField.swift */; };
+		467C34F32656D29E008228DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467C34F22656D29E008228DA /* AppDelegate.swift */; };
+		467C34F72656D29E008228DA /* ArViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467C34F62656D29E008228DA /* ArViewController.swift */; };
+		467C34FC2656D2A0008228DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467C34FB2656D2A0008228DA /* Assets.xcassets */; };
+		467C34FF2656D2A0008228DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467C34FD2656D2A0008228DA /* LaunchScreen.storyboard */; };
+		467C35072656D3AF008228DA /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467C35062656D3AF008228DA /* ConnectionManager.swift */; };
+		467C350D26578F09008228DA /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467C350A26578F09008228DA /* Geometry.swift */; };
+		467C350F2657AB57008228DA /* BinaryDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467C350E2657AB57008228DA /* BinaryDecoder.swift */; };
+		467C351126582853008228DA /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467C351026582852008228DA /* WelcomeController.swift */; };
+		469DFCE8265B99310040E01B /* Pods_TeleportAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA2ED9ECC3558027B0AEACE /* Pods_TeleportAR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		469DFCF4265B9F8E0040E01B /* TeleportAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeleportAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		469DFCF7265B9F8E0040E01B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		469DFCF9265B9F8E0040E01B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		469DFCFB265B9F8E0040E01B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		469DFCFE265B9F8E0040E01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		469DFD00265B9F910040E01B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		469DFD03265B9F910040E01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		469DFD05265B9F910040E01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAEE63AAE1F44D3662E7C14 /* Pods-TeleportAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleportAR.debug.xcconfig"; path = "Target Support Files/Pods-TeleportAR/Pods-TeleportAR.debug.xcconfig"; sourceTree = "<group>"; };
+		1CA2ED9ECC3558027B0AEACE /* Pods_TeleportAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeleportAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4600AF23265A827600432D11 /* ArNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArNavigationController.swift; sourceTree = "<group>"; };
+		4600AF25265A8D9C00432D11 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		467C34EF2656D29E008228DA /* TeleportAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeleportAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		467C34F22656D29E008228DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		467C34F62656D29E008228DA /* ArViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArViewController.swift; sourceTree = "<group>"; };
+		467C34FB2656D2A0008228DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		467C34FE2656D2A0008228DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		467C35002656D2A0008228DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		467C35062656D3AF008228DA /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		467C350A26578F09008228DA /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		467C350E2657AB57008228DA /* BinaryDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryDecoder.swift; sourceTree = "<group>"; };
+		467C351026582852008228DA /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
+		732005B3E71B6837A1B385A7 /* Pods-TeleportAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleportAR.release.xcconfig"; path = "Target Support Files/Pods-TeleportAR/Pods-TeleportAR.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		469DFCF1265B9F8E0040E01B /* Frameworks */ = {
+		467C34EC2656D29E008228DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				469DFCE8265B99310040E01B /* Pods_TeleportAR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		469DFCEB265B9F8E0040E01B = {
+		09B362A7DA3D8E08B12D9AB9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				469DFCF6265B9F8E0040E01B /* TeleportAR */,
-				469DFCF5265B9F8E0040E01B /* Products */,
+				0DAEE63AAE1F44D3662E7C14 /* Pods-TeleportAR.debug.xcconfig */,
+				732005B3E71B6837A1B385A7 /* Pods-TeleportAR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2610C1430EC21372BB193A28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CA2ED9ECC3558027B0AEACE /* Pods_TeleportAR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		467C34E62656D29E008228DA = {
+			isa = PBXGroup;
+			children = (
+				467C34F12656D29E008228DA /* TeleportAR */,
+				467C34F02656D29E008228DA /* Products */,
+				09B362A7DA3D8E08B12D9AB9 /* Pods */,
+				2610C1430EC21372BB193A28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		469DFCF5265B9F8E0040E01B /* Products */ = {
+		467C34F02656D29E008228DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				469DFCF4265B9F8E0040E01B /* TeleportAR.app */,
+				467C34EF2656D29E008228DA /* TeleportAR.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		469DFCF6265B9F8E0040E01B /* TeleportAR */ = {
+		467C34F12656D29E008228DA /* TeleportAR */ = {
 			isa = PBXGroup;
 			children = (
-				469DFCF7265B9F8E0040E01B /* AppDelegate.swift */,
-				469DFCF9265B9F8E0040E01B /* SceneDelegate.swift */,
-				469DFCFB265B9F8E0040E01B /* ViewController.swift */,
-				469DFCFD265B9F8E0040E01B /* Main.storyboard */,
-				469DFD00265B9F910040E01B /* Assets.xcassets */,
-				469DFD02265B9F910040E01B /* LaunchScreen.storyboard */,
-				469DFD05265B9F910040E01B /* Info.plist */,
+				467C34F22656D29E008228DA /* AppDelegate.swift */,
+				467C34F62656D29E008228DA /* ArViewController.swift */,
+				467C350E2657AB57008228DA /* BinaryDecoder.swift */,
+				467C350A26578F09008228DA /* Geometry.swift */,
+				467C351026582852008228DA /* WelcomeController.swift */,
+				4600AF25265A8D9C00432D11 /* TextField.swift */,
+				4600AF23265A827600432D11 /* ArNavigationController.swift */,
+				467C35062656D3AF008228DA /* ConnectionManager.swift */,
+				467C34FB2656D2A0008228DA /* Assets.xcassets */,
+				467C34FD2656D2A0008228DA /* LaunchScreen.storyboard */,
+				467C35002656D2A0008228DA /* Info.plist */,
 			);
 			path = TeleportAR;
 			sourceTree = "<group>";
@@ -70,13 +106,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		469DFCF3265B9F8E0040E01B /* TeleportAR */ = {
+		467C34EE2656D29E008228DA /* TeleportAR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 469DFD08265B9F910040E01B /* Build configuration list for PBXNativeTarget "TeleportAR" */;
+			buildConfigurationList = 467C35032656D2A0008228DA /* Build configuration list for PBXNativeTarget "TeleportAR" */;
 			buildPhases = (
-				469DFCF0265B9F8E0040E01B /* Sources */,
-				469DFCF1265B9F8E0040E01B /* Frameworks */,
-				469DFCF2265B9F8E0040E01B /* Resources */,
+				7EDACC7B6B55E3B73B16943E /* [CP] Check Pods Manifest.lock */,
+				467C34EB2656D29E008228DA /* Sources */,
+				467C34EC2656D29E008228DA /* Frameworks */,
+				467C34ED2656D29E008228DA /* Resources */,
+				50DE3BC725D2C43231AD9B92 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -84,24 +122,24 @@
 			);
 			name = TeleportAR;
 			productName = TeleportAR;
-			productReference = 469DFCF4265B9F8E0040E01B /* TeleportAR.app */;
+			productReference = 467C34EF2656D29E008228DA /* TeleportAR.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		469DFCEC265B9F8E0040E01B /* Project object */ = {
+		467C34E72656D29E008228DA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					469DFCF3265B9F8E0040E01B = {
+					467C34EE2656D29E008228DA = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = 469DFCEF265B9F8E0040E01B /* Build configuration list for PBXProject "TeleportAR" */;
+			buildConfigurationList = 467C34EA2656D29E008228DA /* Build configuration list for PBXProject "TeleportAR" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,55 +147,93 @@
 				en,
 				Base,
 			);
-			mainGroup = 469DFCEB265B9F8E0040E01B;
-			productRefGroup = 469DFCF5265B9F8E0040E01B /* Products */;
+			mainGroup = 467C34E62656D29E008228DA;
+			productRefGroup = 467C34F02656D29E008228DA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				469DFCF3265B9F8E0040E01B /* TeleportAR */,
+				467C34EE2656D29E008228DA /* TeleportAR */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		469DFCF2265B9F8E0040E01B /* Resources */ = {
+		467C34ED2656D29E008228DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				469DFD04265B9F910040E01B /* LaunchScreen.storyboard in Resources */,
-				469DFD01265B9F910040E01B /* Assets.xcassets in Resources */,
-				469DFCFF265B9F8E0040E01B /* Main.storyboard in Resources */,
+				467C34FF2656D2A0008228DA /* LaunchScreen.storyboard in Resources */,
+				467C34FC2656D2A0008228DA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50DE3BC725D2C43231AD9B92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeleportAR/Pods-TeleportAR-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeleportAR/Pods-TeleportAR-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeleportAR/Pods-TeleportAR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EDACC7B6B55E3B73B16943E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeleportAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		469DFCF0265B9F8E0040E01B /* Sources */ = {
+		467C34EB2656D29E008228DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				469DFCFC265B9F8E0040E01B /* ViewController.swift in Sources */,
-				469DFCF8265B9F8E0040E01B /* AppDelegate.swift in Sources */,
-				469DFCFA265B9F8E0040E01B /* SceneDelegate.swift in Sources */,
+				467C351126582853008228DA /* WelcomeController.swift in Sources */,
+				467C34F72656D29E008228DA /* ArViewController.swift in Sources */,
+				467C350F2657AB57008228DA /* BinaryDecoder.swift in Sources */,
+				4600AF26265A8D9C00432D11 /* TextField.swift in Sources */,
+				467C350D26578F09008228DA /* Geometry.swift in Sources */,
+				467C35072656D3AF008228DA /* ConnectionManager.swift in Sources */,
+				4600AF24265A827600432D11 /* ArNavigationController.swift in Sources */,
+				467C34F32656D29E008228DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		469DFCFD265B9F8E0040E01B /* Main.storyboard */ = {
+		467C34FD2656D2A0008228DA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				469DFCFE265B9F8E0040E01B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		469DFD02265B9F910040E01B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				469DFD03265B9F910040E01B /* Base */,
+				467C34FE2656D2A0008228DA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,7 +241,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		469DFD06265B9F910040E01B /* Debug */ = {
+		467C35012656D2A0008228DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -226,7 +302,7 @@
 			};
 			name = Debug;
 		};
-		469DFD07265B9F910040E01B /* Release */ = {
+		467C35022656D2A0008228DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -281,66 +357,76 @@
 			};
 			name = Release;
 		};
-		469DFD09265B9F910040E01B /* Debug */ = {
+		467C35042656D2A0008228DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DAEE63AAE1F44D3662E7C14 /* Pods-TeleportAR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = E3XBS4PGWM;
 				INFOPLIST_FILE = TeleportAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sk.adamvician.TeleportAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		469DFD0A265B9F910040E01B /* Release */ = {
+		467C35052656D2A0008228DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 732005B3E71B6837A1B385A7 /* Pods-TeleportAR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = E3XBS4PGWM;
 				INFOPLIST_FILE = TeleportAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sk.adamvician.TeleportAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		469DFCEF265B9F8E0040E01B /* Build configuration list for PBXProject "TeleportAR" */ = {
+		467C34EA2656D29E008228DA /* Build configuration list for PBXProject "TeleportAR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				469DFD06265B9F910040E01B /* Debug */,
-				469DFD07265B9F910040E01B /* Release */,
+				467C35012656D2A0008228DA /* Debug */,
+				467C35022656D2A0008228DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		469DFD08265B9F910040E01B /* Build configuration list for PBXNativeTarget "TeleportAR" */ = {
+		467C35032656D2A0008228DA /* Build configuration list for PBXNativeTarget "TeleportAR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				469DFD09265B9F910040E01B /* Debug */,
-				469DFD0A265B9F910040E01B /* Release */,
+				467C35042656D2A0008228DA /* Debug */,
+				467C35052656D2A0008228DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 469DFCEC265B9F8E0040E01B /* Project object */;
+	rootObject = 467C34E72656D29E008228DA /* Project object */;
 }

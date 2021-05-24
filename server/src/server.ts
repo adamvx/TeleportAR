@@ -1,13 +1,22 @@
 import http from 'http'
 import WebSocket from 'ws'
 import url from 'url'
+import express from 'express'
 
 const port = 3000
 
-const server = http.createServer();
+const app = express();
+const server = http.createServer(app);
 const kinectSocket = new WebSocket.Server({ noServer: true });
 const appSocket = new WebSocket.Server({ noServer: true });
 
+app.get('/', function (req, res) {
+  res.send('Hello Kinect')
+})
+
+app.get('/check', function (req, res) {
+  res.send('OK')
+})
 
 kinectSocket.on('connection', function connection(ws) {
   // ...

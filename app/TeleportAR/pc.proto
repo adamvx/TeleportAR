@@ -1,0 +1,15 @@
+// awesome.proto
+syntax = "proto3";
+
+message PointCloud {
+  repeated PointCloudVertex pointcloud = 1;
+}
+
+message PointCloudVertex {
+    float x = 1;
+    float y = 2;
+    float z = 3;
+    float r = 4;
+    float g = 5;
+    float b = 6;
+}

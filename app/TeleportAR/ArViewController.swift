@@ -10,7 +10,7 @@ import SceneKit
 import ARKit
 
 class ArViewController: UIViewController {
-
+    
     var manager: ConnectionManager?
     var displayedNode: SCNNode = SCNNode()
     var selectedNode: SCNNode?
@@ -39,9 +39,8 @@ class ArViewController: UIViewController {
 //        sceneView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTap(_:))))
         sceneView.addGestureRecognizer(UIPinchGestureRecognizer(target: self, action: #selector(handlePinch(_:))))
         sceneView.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(handleMove(_:))))
-        manager = ConnectionManager(url: url!, callback: { [weak self] node -> Void in
-            self?.renderPoints(node: node)
-        })
+        manager = ConnectionManager(url: url!)
+        manager?.delegate = self
         
         sceneView.scene.rootNode.addChildNode(displayedNode)
 
@@ -124,11 +123,13 @@ class ArViewController: UIViewController {
         }
         
     }
-    
-    func renderPoints(node: SCNGeometry) {
-        displayedNode.geometry = node
-    }
 
+}
+
+extension ArViewController: ConnectionManagerDelegate {
+    func didUpdateFrame(geometry: SCNGeometry) {
+        displayedNode.geometry = geometry
+    }
 }
 
 extension ArViewController : ARSessionDelegate {
