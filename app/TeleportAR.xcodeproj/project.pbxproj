@@ -368,10 +368,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = E3XBS4PGWM;
 				INFOPLIST_FILE = TeleportAR/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TeleportAR",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sk.adamvician.TeleportAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -392,10 +396,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = E3XBS4PGWM;
 				INFOPLIST_FILE = TeleportAR/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TeleportAR",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sk.adamvician.TeleportAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ArViewController.swift
 //  TeleportAR
 //
 //  Created by Adam Vician on 20/05/2021.
